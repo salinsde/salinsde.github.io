@@ -1,1 +1,0 @@
-# salinsde.github.io
