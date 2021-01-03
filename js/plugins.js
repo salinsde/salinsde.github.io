@@ -4317,7 +4317,7 @@ particlesJS('particles-js',
 function initMap() {
 
     var map = new google.maps.Map(document.getElementById('ieatmaps'), {
-      center: {lat: 34.0937458, lng: -118.3614978},
+      center: {lat: 47.82755300678944, lng: -122.17177500275803},
       zoom: 12,
       styles: [
     {
@@ -4489,7 +4489,7 @@ function initMap() {
     });
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(34.0937458, -118.3614978)
+        position: new google.maps.LatLng(47.82755300678944, -122.17177500275803)
         , title: 'ASL'
         , map : map
 
