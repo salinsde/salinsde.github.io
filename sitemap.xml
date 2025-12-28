@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Main Homepage -->
+  <url>
+    <loc>https://salinsde.github.io/</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Homepage Variants -->
+  <url>
+    <loc>https://salinsde.github.io/index-dark.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/index-glitch.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/index-kenburn.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/index-particle.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/index-slider.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/index-rtl.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/index-no-animation.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Portfolio Pages -->
+  <url>
+    <loc>https://salinsde.github.io/portfolio.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/portfolio-dark.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/portfolio-rtl.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Portfolio Single Pages -->
+  <url>
+    <loc>https://salinsde.github.io/portfolio-single.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/portfolio-single-dark.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/portfolio-single-rtl.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- News/Blog Pages -->
+  <url>
+    <loc>https://salinsde.github.io/news-single.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/news-single-dark.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salinsde.github.io/news-single-rtl.html</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
