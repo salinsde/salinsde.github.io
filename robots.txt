@@ -1,0 +1,15 @@
+# robots.txt for salinsde.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://salinsde.github.io/sitemap.xml
+
+# Disallow crawling of non-essential files
+Disallow: /css/
+Disallow: /js/
+Disallow: /modal/
+
+# Allow crawling of images for image search
+Allow: /img/
