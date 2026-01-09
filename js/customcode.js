@@ -529,7 +529,17 @@ jQuery(document).ready(function(){
 	}
 	waxon_tm_contact_form();
 	*/
-	
+
+	// Show success message if redirected back after form submission
+	if (window.location.search.indexOf('success=true') > -1) {
+		jQuery('.contact_form .returnmessage').html('<span class="contact_success">Thank you! Your message has been sent successfully. You will receive a confirmation email shortly.</span>');
+		jQuery('.contact_form .returnmessage').slideDown(500).delay(5000).slideUp(500);
+		// Clear the URL parameter
+		if (window.history.replaceState) {
+			window.history.replaceState({}, document.title, window.location.pathname);
+		}
+	}
+
 	// -------------------------------------------------
 	// -------------  GLITCH  --------------------------
 	// -------------------------------------------------
