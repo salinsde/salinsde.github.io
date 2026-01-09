@@ -484,7 +484,10 @@ jQuery(document).ready(function(){
 	// -----------------------------------------------------
 	// ----------------    CONTACT FORM    -----------------
 	// -----------------------------------------------------
+	// Contact form now uses FormSubmit.co for GitHub Pages compatibility
+	// Old AJAX handler disabled - form submits directly to FormSubmit.co
 
+	/* DISABLED - Using FormSubmit.co instead
 	function waxon_tm_contact_form(){
 
 		jQuery(".contact_form #send_message").on('click', function(){
@@ -496,7 +499,7 @@ jQuery(document).ready(function(){
 			var success     = jQuery(".contact_form .returnmessage").data('success');
 
 			jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
-			//checking for blank fields	
+			//checking for blank fields
 			if(name===''||email===''||message===''){
 
 				jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
@@ -509,7 +512,7 @@ jQuery(document).ready(function(){
 
 
 					if(jQuery(".contact_form .returnmessage span.contact_error").length){
-						jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);		
+						jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);
 					}else{
 						jQuery(".contact_form .returnmessage").append("<span class='contact_success'>"+ success +"</span>");
 						jQuery(".contact_form .returnmessage").slideDown(500).delay(4000).slideUp(500);
@@ -521,11 +524,22 @@ jQuery(document).ready(function(){
 
 				});
 			}
-			return false; 
+			return false;
 		});
 	}
 	waxon_tm_contact_form();
-	
+	*/
+
+	// Show success message if redirected back after form submission
+	if (window.location.search.indexOf('success=true') > -1) {
+		jQuery('.contact_form .returnmessage').html('<span class="contact_success">Thank you! Your message has been sent successfully. You will receive a confirmation email shortly.</span>');
+		jQuery('.contact_form .returnmessage').slideDown(500).delay(5000).slideUp(500);
+		// Clear the URL parameter
+		if (window.history.replaceState) {
+			window.history.replaceState({}, document.title, window.location.pathname);
+		}
+	}
+
 	// -------------------------------------------------
 	// -------------  GLITCH  --------------------------
 	// -------------------------------------------------
