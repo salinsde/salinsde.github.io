@@ -640,7 +640,8 @@ img.svg{
 	clear: both;
 	float: left;
 }
-.waxon_tm_button a{
+.waxon_tm_button a,
+.waxon_tm_button button{
 	text-decoration: none;
 	color: #fff;
 	background-color: #000;
@@ -648,14 +649,18 @@ img.svg{
 	display: inline-block;
 	border-radius: 50px;
 	border: 2px solid #000;
-	
+	font-family: "Mulish";
+	font-size: 15px;
+	cursor: pointer;
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_button a:hover{
+.waxon_tm_button a:hover,
+.waxon_tm_button button:hover{
 	background-color: transparent;
 	color: #000;
 }
